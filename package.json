@@ -2,7 +2,7 @@
   "name": "hello-rails-react",
   "private": true,
   "dependencies": {
-    "@babel/preset-react": "7.x",
+    "@babel/preset-react": "^7.16.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
