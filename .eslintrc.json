@@ -21,5 +21,12 @@
     "no-shadow": "off",
     "max-len": ["error", { "code": 118 }]
   },
-  "ignorePatterns": ["dist/", "build/", "babel.config.js", "postcss.config.js"]
+  "ignorePatterns": [
+    "dist/",
+    "build/",
+    "node_modules/",
+    "public/",
+    "babel.config.js",
+    "postcss.config.js"
+  ]
 }

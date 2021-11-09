@@ -10,8 +10,8 @@ const App = () => (
     <Routes>
       <Route
         exact
-        path='/'
-        element={
+        path="/"
+        element={(
           <h2
             style={{
               display: 'flex',
@@ -24,9 +24,9 @@ const App = () => (
           >
             Welcome to Greeting App!
           </h2>
-        }
+        )}
       />
-      <Route path='/greetings' element={<Greeting />} />
+      <Route path="/greetings" element={<Greeting />} />
     </Routes>
   </Router>
 );
