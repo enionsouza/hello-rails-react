@@ -14,7 +14,20 @@ const Greeting = () => {
     return () => null;
   }, []);
 
-  return <div>{greeting.message}</div>;
+  return (
+    <h2
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '80vh',
+        backgroundColor: 'lightgray',
+        margin: 0,
+      }}
+    >
+      {greeting.message}
+    </h2>
+  );
 };
 
 export default Greeting;
