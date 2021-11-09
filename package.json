@@ -24,6 +24,7 @@
     "@babel/core": "7.x",
     "@babel/eslint-parser": "7.x",
     "@babel/plugin-syntax-jsx": "7.x",
+    "babel-plugin-macros": "^3.1.0",
     "eslint": "7.x",
     "eslint-config-airbnb": "18.x",
     "eslint-plugin-import": "2.x",
