@@ -18,10 +18,15 @@
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
-    "no-shadow": "off"
+    "no-shadow": "off",
+    "max-len": ["error", { "code": 118 }]
   },
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "node_modules/",
+    "public/",
+    "babel.config.js",
+    "postcss.config.js"
   ]
 }
