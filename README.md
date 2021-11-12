@@ -51,15 +51,17 @@ git clone git@github.com:enionsouza/hello-rails-react.git
 
 ```sh
 cd hello-rails-react
-yarn
 bundle
-rails db:setup
+yarn
+bin/rails db:create
+bin/rails db:migrate
+bin/rails db:seed
 ```
 
 3. Now, on your terminal, run:
 
 ```sh
-rails server
+bin/rails server
 ```
 
 This should start your local server in [http://localhost:3000/](http://localhost:3000/). Now, you can go to your browser and visit this page, and you also can open the rest API client of your choice (Thunder Client extension for VScode is recommended) to fetch a randomly selected greeting message:
